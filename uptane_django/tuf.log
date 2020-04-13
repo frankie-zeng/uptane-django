@@ -1,0 +1,480 @@
+[2020-04-13 05:39:26,504 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 05:39:26,504 UTC] [tuf.repository_tool] [WARNING] [<module>:106@repository_tool.py]
+Warning: The repository and developer tools require additional libraries, which can be installed as follows:
+ $ pip install tuf[tools]
+
+[2020-04-13 05:39:27,178 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 05:39:27,179 UTC] [tuf.repository_tool] [WARNING] [<module>:106@repository_tool.py]
+Warning: The repository and developer tools require additional libraries, which can be installed as follows:
+ $ pip install tuf[tools]
+
+[2020-04-13 05:41:45,944 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 05:41:45,946 UTC] [tuf.repository_tool] [WARNING] [<module>:106@repository_tool.py]
+Warning: The repository and developer tools require additional libraries, which can be installed as follows:
+ $ pip install tuf[tools]
+
+[2020-04-13 05:41:46,915 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 05:41:46,916 UTC] [tuf.repository_tool] [WARNING] [<module>:106@repository_tool.py]
+Warning: The repository and developer tools require additional libraries, which can be installed as follows:
+ $ pip install tuf[tools]
+
+[2020-04-13 05:41:49,662 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 05:41:49,663 UTC] [tuf.repository_tool] [WARNING] [<module>:106@repository_tool.py]
+Warning: The repository and developer tools require additional libraries, which can be installed as follows:
+ $ pip install tuf[tools]
+
+[2020-04-13 05:41:49,997 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 05:41:49,997 UTC] [tuf.repository_tool] [WARNING] [<module>:106@repository_tool.py]
+Warning: The repository and developer tools require additional libraries, which can be installed as follows:
+ $ pip install tuf[tools]
+
+[2020-04-13 05:42:13,474 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 05:42:13,474 UTC] [tuf.repository_tool] [WARNING] [<module>:106@repository_tool.py]
+Warning: The repository and developer tools require additional libraries, which can be installed as follows:
+ $ pip install tuf[tools]
+
+[2020-04-13 05:42:13,495 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 05:42:13,495 UTC] [tuf.repository_tool] [WARNING] [<module>:106@repository_tool.py]
+Warning: The repository and developer tools require additional libraries, which can be installed as follows:
+ $ pip install tuf[tools]
+
+[2020-04-13 05:42:24,717 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 05:42:24,717 UTC] [tuf.repository_tool] [WARNING] [<module>:106@repository_tool.py]
+Warning: The repository and developer tools require additional libraries, which can be installed as follows:
+ $ pip install tuf[tools]
+
+[2020-04-13 05:42:24,727 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 05:42:24,728 UTC] [tuf.repository_tool] [WARNING] [<module>:106@repository_tool.py]
+Warning: The repository and developer tools require additional libraries, which can be installed as follows:
+ $ pip install tuf[tools]
+
+[2020-04-13 05:42:31,460 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 05:42:31,461 UTC] [tuf.repository_tool] [WARNING] [<module>:106@repository_tool.py]
+Warning: The repository and developer tools require additional libraries, which can be installed as follows:
+ $ pip install tuf[tools]
+
+[2020-04-13 05:42:31,462 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 05:42:31,463 UTC] [tuf.repository_tool] [WARNING] [<module>:106@repository_tool.py]
+Warning: The repository and developer tools require additional libraries, which can be installed as follows:
+ $ pip install tuf[tools]
+
+[2020-04-13 05:45:23,558 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 05:45:23,558 UTC] [tuf.repository_tool] [WARNING] [<module>:106@repository_tool.py]
+Warning: The repository and developer tools require additional libraries, which can be installed as follows:
+ $ pip install tuf[tools]
+
+[2020-04-13 05:45:23,576 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 05:45:23,576 UTC] [tuf.repository_tool] [WARNING] [<module>:106@repository_tool.py]
+Warning: The repository and developer tools require additional libraries, which can be installed as follows:
+ $ pip install tuf[tools]
+
+[2020-04-13 05:45:31,645 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 05:45:31,645 UTC] [tuf.repository_tool] [WARNING] [<module>:106@repository_tool.py]
+Warning: The repository and developer tools require additional libraries, which can be installed as follows:
+ $ pip install tuf[tools]
+
+[2020-04-13 05:45:32,453 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 05:45:32,453 UTC] [tuf.repository_tool] [WARNING] [<module>:106@repository_tool.py]
+Warning: The repository and developer tools require additional libraries, which can be installed as follows:
+ $ pip install tuf[tools]
+
+[2020-04-13 05:51:27,488 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 05:51:27,489 UTC] [tuf.repository_tool] [WARNING] [<module>:106@repository_tool.py]
+Warning: The repository and developer tools require additional libraries, which can be installed as follows:
+ $ pip install tuf[tools]
+
+[2020-04-13 05:51:27,512 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 05:51:27,512 UTC] [tuf.repository_tool] [WARNING] [<module>:106@repository_tool.py]
+Warning: The repository and developer tools require additional libraries, which can be installed as follows:
+ $ pip install tuf[tools]
+
+[2020-04-13 05:54:52,809 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 05:54:53,710 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 05:59:28,639 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 05:59:29,264 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 06:33:38,266 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 06:33:38,283 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 06:34:08,070 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 06:34:08,190 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 06:34:16,382 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 06:34:16,410 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 06:34:21,041 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 06:34:21,055 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 06:34:32,368 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 06:34:32,382 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 06:43:39,586 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 06:43:39,617 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 06:45:51,284 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 06:45:51,359 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 06:45:52,225 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 06:45:53,343 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 06:46:36,685 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 06:46:36,685 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 06:46:53,323 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 06:46:53,546 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 06:49:46,189 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 06:49:46,252 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 06:51:09,784 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 06:51:09,786 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 06:51:26,627 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 06:51:27,673 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 06:53:26,158 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 06:53:26,205 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 06:54:11,995 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 06:54:12,973 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 06:54:41,098 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 06:54:41,989 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 06:57:31,060 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 06:57:35,036 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 06:57:36,050 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 06:58:41,212 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 06:58:41,260 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 06:59:02,363 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 06:59:02,397 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 07:26:40,649 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 07:26:40,683 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 07:27:06,239 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 07:27:06,336 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 07:44:37,412 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 07:44:37,415 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 07:45:11,653 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 07:45:11,679 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 07:45:14,979 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 07:45:14,997 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 07:45:34,756 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 07:45:34,887 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 07:45:42,239 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 07:45:42,265 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 07:45:54,037 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 07:45:54,895 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 07:46:17,799 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 07:46:18,823 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 07:46:41,082 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 07:46:41,572 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 07:48:07,582 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 07:48:07,610 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 07:50:03,122 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 07:50:03,338 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 07:50:14,635 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 07:50:14,764 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 07:50:31,686 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 07:50:31,834 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 07:52:08,737 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 07:52:08,817 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 07:53:35,972 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 07:53:35,985 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 07:53:59,842 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 07:54:00,227 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 07:54:13,330 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 07:54:14,219 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 07:57:54,302 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 07:57:54,306 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 07:58:11,708 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 07:58:11,729 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 07:58:26,230 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 07:58:27,424 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 07:58:38,510 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 07:58:38,700 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 07:58:42,087 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 07:58:42,286 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 07:58:45,330 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 08:00:35,983 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 08:00:36,020 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 08:00:57,049 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 08:00:58,636 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 08:01:02,310 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 08:01:03,519 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 08:01:30,761 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 08:01:31,108 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 08:01:46,394 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 08:01:46,438 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 08:01:55,431 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 08:01:55,648 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 08:05:15,879 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 08:05:15,946 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 08:05:29,695 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 08:05:31,074 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 08:05:44,902 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 08:05:45,165 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 08:08:54,980 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 08:08:54,993 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 08:10:30,702 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 08:10:30,718 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 08:10:38,843 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 08:10:38,884 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 08:12:51,656 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 08:12:51,675 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 08:14:13,340 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
+[2020-04-13 08:15:37,416 UTC] [tuf] [DEBUG] [add_console_handler:323@log.py]
+Added a console handler.
+
