@@ -1,0 +1,90 @@
+[2020.04.14 02:46:59UTC] [director] INFO [director.py:register_ecu_serial():123]
+[42m[30mRegistered a new ECU, 'INFOdemocar' in vehicle 'democar' with ECU public key: {'keytype': 'ed25519', 'keyid': '9a406d99e362e7c93e7acfe1e4d6585221315be817f350c026bbee84ada260da', 'keyid_hash_algorithms': ['sha256', 'sha512'], 'keyval': {'public': 'a1293426fcf4ce6f38135eb72bf89fedfdcba1b732779683b951d71a0b9e89a2'}}[0m
+
+[2020.04.14 02:47:25UTC] [director] INFO [director.py:register_ecu_serial():123]
+[42m[30mRegistered a new ECU, 'INFOdemocar' in vehicle 'democar' with ECU public key: {'keytype': 'ed25519', 'keyid': '9a406d99e362e7c93e7acfe1e4d6585221315be817f350c026bbee84ada260da', 'keyid_hash_algorithms': ['sha256', 'sha512'], 'keyval': {'public': 'a1293426fcf4ce6f38135eb72bf89fedfdcba1b732779683b951d71a0b9e89a2'}}[0m
+
+[2020.04.14 02:47:25UTC] [director] INFO [director.py:register_ecu_serial():123]
+[42m[30mRegistered a new ECU, 'TCUdemocar' in vehicle 'democar' with ECU public key: {'keytype': 'ed25519', 'keyid': '49309f114b857e4b29bfbff1c1c75df59f154fbc45539b2eb30c8a867843b2cb', 'keyid_hash_algorithms': ['sha256', 'sha512'], 'keyval': {'public': '6b3ce84f9de678c1c4555607055398ebb2369c84800742773165c5854660c433'}}[0m
+
+[2020.04.14 02:54:01UTC] [director] INFO [director.py:register_ecu_serial():123]
+[42m[30mRegistered a new ECU, 'INFOdemocar' in vehicle 'democar' with ECU public key: {'keytype': 'ed25519', 'keyid': '9a406d99e362e7c93e7acfe1e4d6585221315be817f350c026bbee84ada260da', 'keyid_hash_algorithms': ['sha256', 'sha512'], 'keyval': {'public': 'a1293426fcf4ce6f38135eb72bf89fedfdcba1b732779683b951d71a0b9e89a2'}}[0m
+
+[2020.04.14 02:54:01UTC] [director] INFO [director.py:register_ecu_serial():123]
+[42m[30mRegistered a new ECU, 'TCUdemocar' in vehicle 'democar' with ECU public key: {'keytype': 'ed25519', 'keyid': '49309f114b857e4b29bfbff1c1c75df59f154fbc45539b2eb30c8a867843b2cb', 'keyid_hash_algorithms': ['sha256', 'sha512'], 'keyval': {'public': '6b3ce84f9de678c1c4555607055398ebb2369c84800742773165c5854660c433'}}[0m
+
+[2020.04.14 02:55:41UTC] [director] INFO [director.py:register_ecu_serial():123]
+[42m[30mRegistered a new ECU, 'INFOdemocar' in vehicle 'democar' with ECU public key: {'keytype': 'ed25519', 'keyid': '9a406d99e362e7c93e7acfe1e4d6585221315be817f350c026bbee84ada260da', 'keyid_hash_algorithms': ['sha256', 'sha512'], 'keyval': {'public': 'a1293426fcf4ce6f38135eb72bf89fedfdcba1b732779683b951d71a0b9e89a2'}}[0m
+
+[2020.04.14 02:55:41UTC] [director] INFO [director.py:register_ecu_serial():123]
+[42m[30mRegistered a new ECU, 'TCUdemocar' in vehicle 'democar' with ECU public key: {'keytype': 'ed25519', 'keyid': '49309f114b857e4b29bfbff1c1c75df59f154fbc45539b2eb30c8a867843b2cb', 'keyid_hash_algorithms': ['sha256', 'sha512'], 'keyval': {'public': '6b3ce84f9de678c1c4555607055398ebb2369c84800742773165c5854660c433'}}[0m
+
+[2020.04.14 02:56:54UTC] [director] INFO [director.py:register_ecu_serial():123]
+[42m[30mRegistered a new ECU, 'INFOdemocar' in vehicle 'democar' with ECU public key: {'keytype': 'ed25519', 'keyid': '9a406d99e362e7c93e7acfe1e4d6585221315be817f350c026bbee84ada260da', 'keyid_hash_algorithms': ['sha256', 'sha512'], 'keyval': {'public': 'a1293426fcf4ce6f38135eb72bf89fedfdcba1b732779683b951d71a0b9e89a2'}}[0m
+
+[2020.04.14 02:56:54UTC] [director] INFO [director.py:register_ecu_serial():123]
+[42m[30mRegistered a new ECU, 'TCUdemocar' in vehicle 'democar' with ECU public key: {'keytype': 'ed25519', 'keyid': '49309f114b857e4b29bfbff1c1c75df59f154fbc45539b2eb30c8a867843b2cb', 'keyid_hash_algorithms': ['sha256', 'sha512'], 'keyval': {'public': '6b3ce84f9de678c1c4555607055398ebb2369c84800742773165c5854660c433'}}[0m
+
+[2020.04.14 02:56:54UTC] [director] INFO [director.py:validate_primary_certification_in_vehicle_manifest():305]
+Beginning validate_primary_certification_in_vehicle_manifest
+
+[2020.04.14 02:59:57UTC] [director] INFO [director.py:register_ecu_serial():123]
+[42m[30mRegistered a new ECU, 'INFOdemocar' in vehicle 'democar' with ECU public key: {'keytype': 'ed25519', 'keyid': '9a406d99e362e7c93e7acfe1e4d6585221315be817f350c026bbee84ada260da', 'keyid_hash_algorithms': ['sha256', 'sha512'], 'keyval': {'public': 'a1293426fcf4ce6f38135eb72bf89fedfdcba1b732779683b951d71a0b9e89a2'}}[0m
+
+[2020.04.14 02:59:57UTC] [director] INFO [director.py:register_ecu_serial():123]
+[42m[30mRegistered a new ECU, 'TCUdemocar' in vehicle 'democar' with ECU public key: {'keytype': 'ed25519', 'keyid': '49309f114b857e4b29bfbff1c1c75df59f154fbc45539b2eb30c8a867843b2cb', 'keyid_hash_algorithms': ['sha256', 'sha512'], 'keyval': {'public': '6b3ce84f9de678c1c4555607055398ebb2369c84800742773165c5854660c433'}}[0m
+
+[2020.04.14 02:59:57UTC] [director] INFO [director.py:validate_primary_certification_in_vehicle_manifest():305]
+Beginning validate_primary_certification_in_vehicle_manifest
+
+[2020.04.14 03:00:43UTC] [director] INFO [director.py:register_ecu_serial():123]
+[42m[30mRegistered a new ECU, 'INFOdemocar' in vehicle 'democar' with ECU public key: {'keytype': 'ed25519', 'keyid': '9a406d99e362e7c93e7acfe1e4d6585221315be817f350c026bbee84ada260da', 'keyid_hash_algorithms': ['sha256', 'sha512'], 'keyval': {'public': 'a1293426fcf4ce6f38135eb72bf89fedfdcba1b732779683b951d71a0b9e89a2'}}[0m
+
+[2020.04.14 03:00:43UTC] [director] INFO [director.py:register_ecu_serial():123]
+[42m[30mRegistered a new ECU, 'TCUdemocar' in vehicle 'democar' with ECU public key: {'keytype': 'ed25519', 'keyid': '49309f114b857e4b29bfbff1c1c75df59f154fbc45539b2eb30c8a867843b2cb', 'keyid_hash_algorithms': ['sha256', 'sha512'], 'keyval': {'public': '6b3ce84f9de678c1c4555607055398ebb2369c84800742773165c5854660c433'}}[0m
+
+[2020.04.14 03:00:43UTC] [director] INFO [director.py:validate_primary_certification_in_vehicle_manifest():305]
+Beginning validate_primary_certification_in_vehicle_manifest
+
+[2020.04.14 03:02:38UTC] [director] INFO [director.py:register_ecu_serial():123]
+[42m[30mRegistered a new ECU, 'INFOdemocar' in vehicle 'democar' with ECU public key: {'keytype': 'ed25519', 'keyid': '9a406d99e362e7c93e7acfe1e4d6585221315be817f350c026bbee84ada260da', 'keyid_hash_algorithms': ['sha256', 'sha512'], 'keyval': {'public': 'a1293426fcf4ce6f38135eb72bf89fedfdcba1b732779683b951d71a0b9e89a2'}}[0m
+
+[2020.04.14 03:02:38UTC] [director] INFO [director.py:register_ecu_serial():123]
+[42m[30mRegistered a new ECU, 'TCUdemocar' in vehicle 'democar' with ECU public key: {'keytype': 'ed25519', 'keyid': '49309f114b857e4b29bfbff1c1c75df59f154fbc45539b2eb30c8a867843b2cb', 'keyid_hash_algorithms': ['sha256', 'sha512'], 'keyval': {'public': '6b3ce84f9de678c1c4555607055398ebb2369c84800742773165c5854660c433'}}[0m
+
+[2020.04.14 03:02:38UTC] [director] INFO [director.py:validate_primary_certification_in_vehicle_manifest():305]
+Beginning validate_primary_certification_in_vehicle_manifest
+
+[2020.04.14 03:03:24UTC] [director] INFO [director.py:register_ecu_serial():123]
+[42m[30mRegistered a new ECU, 'INFOdemocar' in vehicle 'democar' with ECU public key: {'keytype': 'ed25519', 'keyid': '9a406d99e362e7c93e7acfe1e4d6585221315be817f350c026bbee84ada260da', 'keyid_hash_algorithms': ['sha256', 'sha512'], 'keyval': {'public': 'a1293426fcf4ce6f38135eb72bf89fedfdcba1b732779683b951d71a0b9e89a2'}}[0m
+
+[2020.04.14 03:03:24UTC] [director] INFO [director.py:register_ecu_serial():123]
+[42m[30mRegistered a new ECU, 'TCUdemocar' in vehicle 'democar' with ECU public key: {'keytype': 'ed25519', 'keyid': '49309f114b857e4b29bfbff1c1c75df59f154fbc45539b2eb30c8a867843b2cb', 'keyid_hash_algorithms': ['sha256', 'sha512'], 'keyval': {'public': '6b3ce84f9de678c1c4555607055398ebb2369c84800742773165c5854660c433'}}[0m
+
+[2020.04.14 03:03:24UTC] [director] INFO [director.py:validate_primary_certification_in_vehicle_manifest():305]
+Beginning validate_primary_certification_in_vehicle_manifest
+
+[2020.04.14 03:03:24UTC] [director] INFO [director.py:register_vehicle_manifest():258]
+[42m[30m Received a Vehicle Manifest from Primary ECU 'INFOdemocar', with a valid signature from that ECU.[0m
+
+[2020.04.14 03:03:24UTC] [director] DEBUG [director.py:register_ecu_manifest():399]
+Stored a valid ECU manifest from ECU 'TCUdemocar'
+
+[2020.04.14 03:08:53UTC] [director] INFO [director.py:register_ecu_serial():123]
+[42m[30mRegistered a new ECU, 'INFOdemocar' in vehicle 'democar' with ECU public key: {'keytype': 'ed25519', 'keyid': '9a406d99e362e7c93e7acfe1e4d6585221315be817f350c026bbee84ada260da', 'keyid_hash_algorithms': ['sha256', 'sha512'], 'keyval': {'public': 'a1293426fcf4ce6f38135eb72bf89fedfdcba1b732779683b951d71a0b9e89a2'}}[0m
+
+[2020.04.14 03:08:53UTC] [director] INFO [director.py:register_ecu_serial():123]
+[42m[30mRegistered a new ECU, 'TCUdemocar' in vehicle 'democar' with ECU public key: {'keytype': 'ed25519', 'keyid': '49309f114b857e4b29bfbff1c1c75df59f154fbc45539b2eb30c8a867843b2cb', 'keyid_hash_algorithms': ['sha256', 'sha512'], 'keyval': {'public': '6b3ce84f9de678c1c4555607055398ebb2369c84800742773165c5854660c433'}}[0m
+
+[2020.04.14 03:08:53UTC] [director] INFO [director.py:validate_primary_certification_in_vehicle_manifest():305]
+Beginning validate_primary_certification_in_vehicle_manifest
+
+[2020.04.14 03:08:53UTC] [director] INFO [director.py:register_vehicle_manifest():258]
+[42m[30m Received a Vehicle Manifest from Primary ECU 'INFOdemocar', with a valid signature from that ECU.[0m
+
+[2020.04.14 03:08:53UTC] [director] DEBUG [director.py:register_ecu_manifest():399]
+Stored a valid ECU manifest from ECU 'TCUdemocar'
+
+[2020.04.14 03:08:53UTC] [director] INFO [director.py:validate_primary_certification_in_vehicle_manifest():305]
+Beginning validate_primary_certification_in_vehicle_manifest
+

@@ -31,8 +31,8 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'inventorydb.apps.InventorydbConfig',
     'timeserver.apps.TimeserverConfig',
+    'director.apps.DirectorConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -124,4 +124,6 @@ STATIC_URL = '/static/'
 
 #APP Specical 
 
-KEY_PATH=os.path.join(os.path.abspath(os.path.dirname(__file__)),'..','keys')
+KEY_PATH=os.path.join(os.path.abspath(os.path.dirname(__file__)),'..','..','keys')
+DIRECTOR_REPO=os.path.join(os.path.abspath(os.path.dirname(__file__)),'..','..','director_repo')
+DIRECTOR={}
