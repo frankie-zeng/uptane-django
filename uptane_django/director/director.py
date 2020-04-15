@@ -10,6 +10,8 @@ from uptane import GREEN, RED, YELLOW, ENDCOLORS
 import director.inventorydb as inventory
 import os
 import hashlib
+import json
+import shutil
 
 from uptane.encoding.asn1_codec import DATATYPE_TIME_ATTESTATION
 from uptane.encoding.asn1_codec import DATATYPE_ECU_MANIFEST
@@ -85,11 +87,60 @@ class Director:
     self.vehicle_repositories = dict()
 
     try:
-      for vin in inventory.get_all_registed_vin():
-          self.create_director_repo_for_vehicle(vin.identifier)
+      vins=inventory.get_all_registed_vin()
     except:
       pass
 
+    for vin in vins:
+      self.create_director_repo_for_vehicle(vin.identifier)
+      repo=self.vehicle_repositories[vin.identifier]
+      repo_dir=repo._repository_directory
+      targets_json=os.path.join(repo_dir,'metadata','targets.json')
+      if os.path.exists(targets_json):
+        f=open(targets_json)
+        targets_meta=json.loads(f.read())
+        f.close()
+        targets=targets_meta['signed']['targets']
+        for key in targets.keys():
+          filepath=os.path.join(repo_dir,'targets',key[1:])
+          ecu_serial=targets[key]['custom']['ecu_serial']
+          if os.path.exists(filepath):
+            self.add_target_for_ecu(vin.identifier,ecu_serial,filepath)
+      self.write_to_live(vin.identifier)
+   
+
+  def write_to_live(self,vin):
+    repo=self.vehicle_repositories[vin]
+    repo_dir = repo._repository_directory
+
+    repo.mark_dirty(['timestamp', 'snapshot'])
+    repo.write() # will be writeall() in most recent TUF branch
+    assert(os.path.exists(os.path.join(repo_dir, 'metadata.staged'))), \
+        'Programming error: a repository write just occurred; why is ' + \
+        'there no metadata.staged directory where it is expected?'
+
+    # This shouldn't exist, but just in case something was interrupted,
+    # warn and remove it.
+    if os.path.exists(os.path.join(repo_dir, 'metadata.livetemp')):
+        print(LOG_PREFIX + YELLOW + 'Warning: metadata.livetemp existed already. '
+            'Some previous process was interrupted, or there is a programming '
+            'error.' + ENDCOLORS)
+        shutil.rmtree(os.path.join(repo_dir, 'metadata.livetemp'))
+
+    # Copy the staged metadata to a temp directory we'll move into place
+    # atomically in a moment.
+    shutil.copytree(
+        os.path.join(repo_dir, 'metadata.staged'),
+        os.path.join(repo_dir, 'metadata.livetemp'))
+
+    # Empty the existing (old) live metadata directory (relatively fast).
+    if os.path.exists(os.path.join(repo_dir, 'metadata')):
+        shutil.rmtree(os.path.join(repo_dir, 'metadata'))
+
+    # Atomically move the new metadata into place.
+    os.rename(
+        os.path.join(repo_dir, 'metadata.livetemp'),
+        os.path.join(repo_dir, 'metadata'))
 
 
   def register_ecu_serial(self, ecu_serial, ecu_key, vin, is_primary=False):

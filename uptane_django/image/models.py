@@ -10,6 +10,8 @@ import os
 class ImageTarget(models.Model):
     name = models.CharField(max_length=255,primary_key=True)
     file = models.FileField()
+    def __str__(self):
+        return self.name+':'+self.file.name
     def save(self, *args, **kwargs):
         super().save(*args, **kwargs)  # Call the "real" save() method.
         settings.REPO.targets.add_target(os.path.join(settings.MEDIA_ROOT,self.file.name))
