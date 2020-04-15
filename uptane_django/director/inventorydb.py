@@ -50,6 +50,8 @@ def register_ecu(is_primary, vin, ecu_serial, public_key):
     # the ECU.
     ecu_manifests[ecu_serial] = []
 
+def get_all_registed_vin():
+    return Vehicle.objects.all()
 
 def register_vehicle(vin):
     vins = Vehicle.objects.filter(identifier=vin)

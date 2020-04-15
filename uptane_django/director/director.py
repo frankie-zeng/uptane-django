@@ -84,6 +84,12 @@ class Director:
 
     self.vehicle_repositories = dict()
 
+    try:
+      for vin in inventory.get_all_registed_vin():
+          self.create_director_repo_for_vehicle(vin.identifier)
+    except:
+      pass
+
 
 
   def register_ecu_serial(self, ecu_serial, ecu_key, vin, is_primary=False):
@@ -464,6 +470,7 @@ class Director:
 
     # Repository Tool expects to use the current directory.
     # Figure out if this is impactful and needs to be changed.
+    last_dir=os.getcwd()
     os.chdir(self.director_repos_dir) # TODO: Is messing with cwd a bad idea?
 
     # Generates absolute path for a subdirectory with name equal to vin,
@@ -488,9 +495,25 @@ class Director:
     this_repo.snapshot.load_signing_key(self.key_dirsnap_pri)
     this_repo.targets.load_signing_key(self.key_dirtarg_pri)
 
+    os.chdir(last_dir)
 
 
+  def delete_target_for_vechile(self,vin,target_filepath):
+    uptane.formats.VIN_SCHEMA.check_match(vin)
+    tuf.formats.RELPATH_SCHEMA.check_match(target_filepath)
 
+    if vin not in self.vehicle_repositories:
+      raise uptane.UnknownVehicle('The VIN provided, ' + repr(vin) + ' is not '
+          'that of a vehicle known to this Director.')
+
+    # With the below off, we will save targets for ECUs we didn't previously
+    # know exist.
+    # elif ecu_serial not in inventory.ecu_public_keys:
+    #   raise uptane.UnknownECU('The ECU Serial provided, ' + repr(ecu_serial) +
+    #       ' is not that of an ECU known to this Director.')
+
+    self.vehicle_repositories[vin].targets.remove_target(
+        target_filepath)
 
   def add_target_for_ecu(self, vin, ecu_serial, target_filepath):
     """

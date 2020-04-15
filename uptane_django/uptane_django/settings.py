@@ -31,8 +31,9 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'timeserver.apps.TimeserverConfig',
     'director.apps.DirectorConfig',
+    'image.apps.ImageConfig',
+    'timeserver.apps.TimeserverConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -126,4 +127,7 @@ STATIC_URL = '/static/'
 
 KEY_PATH=os.path.join(os.path.abspath(os.path.dirname(__file__)),'..','..','keys')
 DIRECTOR_REPO=os.path.join(os.path.abspath(os.path.dirname(__file__)),'..','..','director_repo')
+IMAGE_REPO=os.path.join(os.path.abspath(os.path.dirname(__file__)),'..','..','image_repo')
+MEDIA_ROOT=os.path.join(IMAGE_REPO,"targets")
 DIRECTOR={}
+REPO={}

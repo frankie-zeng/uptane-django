@@ -1,3 +1,5 @@
 /env
 __pycache__
 db.sqlite3
+image_repo
+director_repo
