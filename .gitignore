@@ -3,3 +3,4 @@ __pycache__
 db.sqlite3
 image_repo
 director_repo
+uptane_django/tuf.log
