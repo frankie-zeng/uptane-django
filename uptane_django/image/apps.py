@@ -4,6 +4,7 @@ from django.conf import settings
 import tuf.repository_tool as rt
 import os
 import shutil
+import json
 
 class ImageConfig(AppConfig):
     name = 'image'
@@ -30,6 +31,20 @@ class ImageConfig(AppConfig):
         settings.REPO.timestamp.load_signing_key(keys_pri['timestamp'])
         settings.REPO.snapshot.load_signing_key(keys_pri['snapshot'])
         settings.REPO.targets.load_signing_key(keys_pri['targets'])
+
+
+        repo_dir=settings.IMAGE_REPO
+        targets_json=os.path.join(repo_dir,'metadata','targets.json')
+        if os.path.exists(targets_json):
+            f=open(targets_json)
+            targets_meta=json.loads(f.read())
+            f.close()
+            targets=targets_meta['signed']['targets']
+            for key in targets.keys():
+                filepath=os.path.join(repo_dir,'targets',key[1:])
+                if os.path.exists(filepath):
+                    settings.REPO.targets.add_target(filepath)
+
 
         settings.REPO.mark_dirty(['timestamp', 'snapshot'])
         settings.REPO.write() # will be writeall() in most recent TUF branch
