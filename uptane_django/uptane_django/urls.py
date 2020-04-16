@@ -15,8 +15,13 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import include, path
-
+from image.views import repo_targets,repo_metadata
+from director.views import director_targets,director_metadata
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('get_signed_time/',include('timeserver.urls'))
+    path('get_signed_time/',include('timeserver.urls')),
+    path('repo/metadata/<str:filename>',repo_metadata),
+    path('repo/targets/<str:filename>',repo_targets),
+    path('director/<str:vin>/metadata/<str:filename>',director_metadata),
+    path('director/<str:vin>/targets/<str:filename>',director_targets),
 ]
