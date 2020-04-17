@@ -88,3 +88,126 @@ Stored a valid ECU manifest from ECU 'TCUdemocar'
 [2020.04.14 03:08:53UTC] [director] INFO [director.py:validate_primary_certification_in_vehicle_manifest():305]
 Beginning validate_primary_certification_in_vehicle_manifest
 
+[2020.04.17 00:46:32UTC] [director] INFO [director.py:validate_primary_certification_in_vehicle_manifest():362]
+Beginning validate_primary_certification_in_vehicle_manifest
+
+[2020.04.17 00:50:44UTC] [director] INFO [director.py:validate_primary_certification_in_vehicle_manifest():362]
+Beginning validate_primary_certification_in_vehicle_manifest
+
+[2020.04.17 00:58:08UTC] [director] INFO [director.py:validate_primary_certification_in_vehicle_manifest():362]
+Beginning validate_primary_certification_in_vehicle_manifest
+
+[2020.04.17 00:59:55UTC] [director] INFO [director.py:validate_primary_certification_in_vehicle_manifest():362]
+Beginning validate_primary_certification_in_vehicle_manifest
+
+[2020.04.17 01:01:07UTC] [director] INFO [director.py:validate_primary_certification_in_vehicle_manifest():362]
+Beginning validate_primary_certification_in_vehicle_manifest
+
+[2020.04.17 01:02:10UTC] [director] INFO [director.py:validate_primary_certification_in_vehicle_manifest():362]
+Beginning validate_primary_certification_in_vehicle_manifest
+
+[2020.04.17 01:05:11UTC] [director] INFO [director.py:validate_primary_certification_in_vehicle_manifest():363]
+Beginning validate_primary_certification_in_vehicle_manifest
+
+[2020.04.17 01:06:02UTC] [director] INFO [director.py:validate_primary_certification_in_vehicle_manifest():363]
+Beginning validate_primary_certification_in_vehicle_manifest
+
+[2020.04.17 01:06:02UTC] [director] INFO [director.py:register_vehicle_manifest():316]
+[42m[30m Received a Vehicle Manifest from Primary ECU 'INFOdemocar', with a valid signature from that ECU.[0m
+
+[2020.04.17 01:15:10UTC] [director] INFO [director.py:validate_primary_certification_in_vehicle_manifest():363]
+Beginning validate_primary_certification_in_vehicle_manifest
+
+[2020.04.17 01:15:10UTC] [director] INFO [director.py:register_vehicle_manifest():316]
+[42m[30m Received a Vehicle Manifest from Primary ECU 'INFOdemocar', with a valid signature from that ECU.[0m
+
+[2020.04.17 01:15:10UTC] [director] DEBUG [director.py:register_ecu_manifest():457]
+Stored a valid ECU manifest from ECU 'TCUdemocar'
+
+[2020.04.17 01:16:22UTC] [director] INFO [director.py:validate_primary_certification_in_vehicle_manifest():363]
+Beginning validate_primary_certification_in_vehicle_manifest
+
+[2020.04.17 01:16:22UTC] [director] INFO [director.py:register_vehicle_manifest():316]
+[42m[30m Received a Vehicle Manifest from Primary ECU 'INFOdemocar', with a valid signature from that ECU.[0m
+
+[2020.04.17 01:16:22UTC] [director] DEBUG [director.py:register_ecu_manifest():457]
+Stored a valid ECU manifest from ECU 'TCUdemocar'
+
+[2020.04.17 01:20:30UTC] [director] INFO [director.py:validate_primary_certification_in_vehicle_manifest():363]
+Beginning validate_primary_certification_in_vehicle_manifest
+
+[2020.04.17 01:20:30UTC] [director] INFO [director.py:register_vehicle_manifest():316]
+[42m[30m Received a Vehicle Manifest from Primary ECU 'INFOdemocar', with a valid signature from that ECU.[0m
+
+[2020.04.17 01:20:30UTC] [director] DEBUG [director.py:register_ecu_manifest():457]
+Stored a valid ECU manifest from ECU 'TCUdemocar'
+
+[2020.04.17 01:20:37UTC] [director] INFO [director.py:validate_primary_certification_in_vehicle_manifest():363]
+Beginning validate_primary_certification_in_vehicle_manifest
+
+[2020.04.17 01:20:37UTC] [director] INFO [director.py:register_vehicle_manifest():316]
+[42m[30m Received a Vehicle Manifest from Primary ECU 'INFOdemocar', with a valid signature from that ECU.[0m
+
+[2020.04.17 01:20:37UTC] [director] DEBUG [director.py:register_ecu_manifest():457]
+Stored a valid ECU manifest from ECU 'TCUdemocar'
+
+[2020.04.17 01:20:56UTC] [director] INFO [director.py:validate_primary_certification_in_vehicle_manifest():363]
+Beginning validate_primary_certification_in_vehicle_manifest
+
+[2020.04.17 01:30:05UTC] [director] INFO [director.py:validate_primary_certification_in_vehicle_manifest():363]
+Beginning validate_primary_certification_in_vehicle_manifest
+
+[2020.04.17 01:30:05UTC] [director] INFO [director.py:register_vehicle_manifest():316]
+[42m[30m Received a Vehicle Manifest from Primary ECU 'INFOdemocar', with a valid signature from that ECU.[0m
+
+[2020.04.17 01:30:05UTC] [director] DEBUG [director.py:register_ecu_manifest():457]
+Stored a valid ECU manifest from ECU 'TCUdemocar'
+
+[2020.04.17 01:39:35UTC] [director] INFO [director.py:validate_primary_certification_in_vehicle_manifest():363]
+Beginning validate_primary_certification_in_vehicle_manifest
+
+[2020.04.17 01:39:35UTC] [director] INFO [director.py:register_vehicle_manifest():316]
+[42m[30m Received a Vehicle Manifest from Primary ECU 'INFOdemocar', with a valid signature from that ECU.[0m
+
+[2020.04.17 01:39:35UTC] [director] DEBUG [director.py:register_ecu_manifest():457]
+Stored a valid ECU manifest from ECU 'TCUdemocar'
+
+[2020.04.17 01:45:54UTC] [director] INFO [director.py:validate_primary_certification_in_vehicle_manifest():363]
+Beginning validate_primary_certification_in_vehicle_manifest
+
+[2020.04.17 01:48:30UTC] [director] INFO [director.py:validate_primary_certification_in_vehicle_manifest():363]
+Beginning validate_primary_certification_in_vehicle_manifest
+
+[2020.04.17 01:48:30UTC] [director] INFO [director.py:register_vehicle_manifest():316]
+[42m[30m Received a Vehicle Manifest from Primary ECU 'INFOdemocar', with a valid signature from that ECU.[0m
+
+[2020.04.17 01:48:30UTC] [director] DEBUG [director.py:register_ecu_manifest():457]
+Stored a valid ECU manifest from ECU 'TCUdemocar'
+
+[2020.04.17 02:16:58UTC] [director] INFO [director.py:validate_primary_certification_in_vehicle_manifest():363]
+Beginning validate_primary_certification_in_vehicle_manifest
+
+[2020.04.17 02:16:58UTC] [director] INFO [director.py:register_vehicle_manifest():316]
+[42m[30m Received a Vehicle Manifest from Primary ECU 'INFOdemocar', with a valid signature from that ECU.[0m
+
+[2020.04.17 02:16:58UTC] [director] DEBUG [director.py:register_ecu_manifest():457]
+Stored a valid ECU manifest from ECU 'TCUdemocar'
+
+[2020.04.17 02:18:31UTC] [director] INFO [director.py:validate_primary_certification_in_vehicle_manifest():363]
+Beginning validate_primary_certification_in_vehicle_manifest
+
+[2020.04.17 02:18:31UTC] [director] INFO [director.py:register_vehicle_manifest():316]
+[42m[30m Received a Vehicle Manifest from Primary ECU 'INFOdemocar', with a valid signature from that ECU.[0m
+
+[2020.04.17 02:18:31UTC] [director] DEBUG [director.py:register_ecu_manifest():457]
+Stored a valid ECU manifest from ECU 'TCUdemocar'
+
+[2020.04.17 02:19:48UTC] [director] INFO [director.py:validate_primary_certification_in_vehicle_manifest():363]
+Beginning validate_primary_certification_in_vehicle_manifest
+
+[2020.04.17 02:19:48UTC] [director] INFO [director.py:register_vehicle_manifest():316]
+[42m[30m Received a Vehicle Manifest from Primary ECU 'INFOdemocar', with a valid signature from that ECU.[0m
+
+[2020.04.17 02:19:48UTC] [director] DEBUG [director.py:register_ecu_manifest():457]
+Stored a valid ECU manifest from ECU 'TCUdemocar'
+

@@ -92,6 +92,7 @@ class Director:
       pass
 
     for vin in vins:
+      # inventory.load_manifests_dict(vin.identifier)
       self.create_director_repo_for_vehicle(vin.identifier)
       repo=self.vehicle_repositories[vin.identifier]
       repo_dir=repo._repository_directory

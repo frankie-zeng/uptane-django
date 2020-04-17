@@ -4,10 +4,11 @@ import tuf
 import sys
 from .models import Ecu,Vehicle
 import json
-
+from expiringdict import ExpiringDict
 # Global dictionaries
-vehicle_manifests = {}
-ecu_manifests = {}
+vehicle_manifests = ExpiringDict(max_len=200, max_age_seconds=60*5)
+ecu_manifests = ExpiringDict(max_len=1000, max_age_seconds=60*5)
+
 
 
 
@@ -18,7 +19,8 @@ def get_ecu_public_key(ecu_serial):
         raise uptane.UnknownECU('The given ECU Serial, ' + repr(ecu_serial) +
                                 ' is not known. It must be registered.')
     #print(type(ecu.public_key))
-    return json.loads(ecu.public_key)
+    ed25519_key, junk=tuf.keys.format_metadata_to_key(json.loads(ecu.public_key))
+    return ed25519_key
     #return ecu.public_key
 
 
@@ -48,10 +50,14 @@ def register_ecu(is_primary, vin, ecu_serial, public_key):
 
     # Create an entry in the ecu_manifests dictionary for future manifests from
     # the ECU.
-    ecu_manifests[ecu_serial] = []
+    #ecu_manifests[vin+ecu_serial] = []
 
 def get_all_registed_vin():
     return Vehicle.objects.all()
+def load_manifests_dict(vin):
+    vehicle_manifests[vin] = []
+    for ecu in Ecu.objects.filter(vehicle_id=vin):
+        ecu_manifests[vin+ecu.identifier] = []
 
 def register_vehicle(vin):
     vins = Vehicle.objects.filter(identifier=vin)
@@ -63,7 +69,7 @@ def register_vehicle(vin):
     else:
         raise uptane.Spoofing('The given VIN, ' + repr(vin) + ', is already '
                               'registered.')
-    vehicle_manifests[vin] = []
+    #vehicle_manifests[vin] = []
 
 
 def check_vin_registered(vin):
@@ -84,28 +90,30 @@ def check_ecu_registered(ecu_serial):
 
 def get_vehicle_manifests(vin):
     check_vin_registered(vin)
-    return vehicle_manifests[vin]
+    return vehicle_manifests.get(vin)
 
 
 def get_last_vehicle_manifest(vin):
     check_vin_registered(vin)
-    if not vehicle_manifests[vin]:
+    if not vehicle_manifests.get(vin):
         return None
     else:
-        return vehicle_manifests[vin][-1]
+        return vehicle_manifests.get(vin)[-1]
 
 
-def get_ecu_manifests(ecu_serial):
+def get_ecu_manifests(vin,ecu_serial):
+    check_vin_registered(vin)
     check_ecu_registered(ecu_serial)
-    return ecu_manifests[ecu_serial]
+    return ecu_manifests.get(vin+ecu_serial)
 
 
-def get_last_ecu_manifest(ecu_serial):
+def get_last_ecu_manifest(vin,ecu_serial):
+    check_vin_registered(vin)
     check_ecu_registered(ecu_serial)
-    if not ecu_manifests[ecu_serial]:
+    if not ecu_manifests.get(vin+ecu_serial):
         return None
     else:
-        return ecu_manifests[ecu_serial][-1]
+        return ecu_manifests.get(vin+ecu_serial)[-1]
 
 
 def save_vehicle_manifest(vin, signed_vehicle_manifest):
@@ -118,9 +126,11 @@ def save_vehicle_manifest(vin, signed_vehicle_manifest):
 
     uptane.formats.SIGNABLE_VEHICLE_VERSION_MANIFEST_SCHEMA.check_match(
         signed_vehicle_manifest)
-
-    vehicle_manifests[vin].append(signed_vehicle_manifest)
-
+    a=vehicle_manifests.get(vin)
+    if a is None:
+        a=[]
+    a.append(signed_vehicle_manifest)
+    vehicle_manifests[vin]=a
     # Not doing it this way because the Director is going to pass through a
     # correctly-signed vehicle manifest even if some of the ECU Manifests within
     # it are *not* correctly signed. The Director will instead issue a
@@ -148,16 +158,25 @@ def get_all_ecu_manifests_from_vehicle(vin):
 
     check_vin_registered(vin)  # check arg format and registration
 
-    ecus_in_vehicle = ecus_by_vin[vin]
+    ecus_in_vehicle = Ecu.objects.filter(vehicle_id=vin)
+    a={}
+    for ecu in ecus_in_vehicle:
+        b=ecu_manifests.get(vin+ecu.identifier)
+        if b is None:
+            b=[]
+        a[ecu.identifier]=b
 
-    return {serial: ecu_manifests[serial] for serial in ecus_in_vehicle}
+    return a
 
 
 def save_ecu_manifest(vin, ecu_serial, signed_ecu_manifest):
-
+    check_vin_registered(vin)  # check arg format and registration
     check_ecu_registered(ecu_serial)  # check format and registration
 
     uptane.formats.SIGNABLE_ECU_VERSION_MANIFEST_SCHEMA.check_match(
         signed_ecu_manifest)
-
-    ecu_manifests[ecu_serial].append(signed_ecu_manifest)
+    a=ecu_manifests.get(vin+ecu_serial)
+    if a is None:
+        a=[]
+    a.append(signed_ecu_manifest)
+    ecu_manifests[vin+ecu_serial]=a
