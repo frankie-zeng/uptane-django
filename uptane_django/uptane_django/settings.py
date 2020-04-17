@@ -125,7 +125,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-
+STATIC_ROOT = os.path.join(os.path.abspath(os.path.dirname(__file__)),'..','..','static')
 #APP Specical 
 
 KEY_PATH=os.path.join(os.path.abspath(os.path.dirname(__file__)),'..','..','keys')

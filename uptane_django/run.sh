@@ -1,0 +1,1 @@
+nohup uwsgi --enable-threads --socket 127.0.0.1:29000 --wsgi-file uptane_django/wsgi.py -H ./../env &

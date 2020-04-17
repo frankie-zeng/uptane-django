@@ -6,3 +6,4 @@ director_repo
 uptane_django/tuf.log
 *.key
 *.pem
+static
