@@ -11,7 +11,8 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 """
 
 import os
-
+import sys
+sys.path.append(os.path.join(os.path.abspath(os.path.dirname(__file__)),'..','..','uptane'))
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -25,7 +26,9 @@ SECRET_KEY = '2o2o632=+-e-60ym-4e&kxo7y3*2mbt1+dvuz=)93ry%4b0wq4'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'ota.whyengineer.com'
+]
 
 
 # Application definition
