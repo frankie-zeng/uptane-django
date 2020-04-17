@@ -15,10 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import include, path
-from timeserver.views import get_signed_time
+from timeserver.views import get_signed_time,index
 from image.views import repo_targets,repo_metadata
 from director.views import director_targets,director_metadata,register_vehicle_manifest
 urlpatterns = [
+    path('',index),
     path('admin/', admin.site.urls),
     path('get_signed_time',get_signed_time),
     path('repo/metadata/<str:filename>',repo_metadata),

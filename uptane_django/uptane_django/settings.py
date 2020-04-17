@@ -27,7 +27,8 @@ SECRET_KEY = '2o2o632=+-e-60ym-4e&kxo7y3*2mbt1+dvuz=)93ry%4b0wq4'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'ota.whyengineer.com'
+    'ota.whyengineer.com',
+    '127.0.0.1'
 ]
 
 
@@ -134,3 +135,4 @@ IMAGE_REPO=os.path.join(os.path.abspath(os.path.dirname(__file__)),'..','..','im
 MEDIA_ROOT=os.path.join(IMAGE_REPO,"targets")
 DIRECTOR={}
 REPO={}
+README_PATH=os.path.join(os.path.abspath(os.path.dirname(__file__)),'..','..','README.md')

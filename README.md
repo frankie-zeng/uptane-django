@@ -1,12 +1,12 @@
 # Uptane OTA Server
 This porject is a OTA firmware server based [django](https://www.djangoproject.com/]).Django is a python web server framework, which support database ORM model opperate.
 
-The OTA protcol is based [uptane](https://uptane.github.io/).Uptane is an open and secure software update system design which protects software delivered over-the-air to the computerized units of automobiles. Using https://github.com/uptane/uptane as the core feature.
+The OTA protcol is based [uptane](https://uptane.github.io/).Uptane is an open and secure software update system design which protects software delivered over-the-air to the computerized units of automobiles. Using <https://github.com/uptane/uptane> as the core feature.
 
 [Github](https://github.com/frankie-zeng/uptane-django)
 
 ## Test And Verify
-I have deploy the code to myself server. ota.whyengineer.com, both https and http is support. 
+I have deploy the code to myself server. <https://ota.whyengineer.com>, both https and http is support. 
 
 ## URL API
 
@@ -15,7 +15,7 @@ Description: get security time
 
 Request: GET
 
-**get_signed_time**
+Url: ```get_signed_time```
 
 `curl https://ota.whyengineer.com/get_signed_time?nonces=1,2`
 
@@ -37,16 +37,17 @@ It should return the root role metadata.
 
 All metadata url list:
 
-* http://ota.whyengineer.com/repo/metadata/root.json
-* http://ota.whyengineer.com/repo/metadata/timestamp.json
-* http://ota.whyengineer.com/repo/metadata/snapshot.json
-* http://ota.whyengineer.com/repo/metadata/targets.json
+* <http://ota.whyengineer.com/repo/metadata/root.json>
+* <http://ota.whyengineer.com/repo/metadata/timestamp.json>
+* <http://ota.whyengineer.com/repo/metadata/snapshot.json>
+* <http://ota.whyengineer.com/repo/metadata/targets.json>
 
 or gz compressed file:
-* http://ota.whyengineer.com/repo/metadata/root.json.gz
-* http://ota.whyengineer.com/repo/metadata/timestamp.json.gz
-* http://ota.whyengineer.com/repo/metadata/snapshot.json.gz
-* http://ota.whyengineer.com/repo/metadata/targets.json.gz
+
+* <http://ota.whyengineer.com/repo/metadata/root.json.gz>
+* <http://ota.whyengineer.com/repo/metadata/timestamp.json.gz>
+* <http://ota.whyengineer.com/repo/metadata/snapshot.json.gz>
+* <http://ota.whyengineer.com/repo/metadata/targets.json.gz>
 
 #### Get the target firmware 
 `
@@ -61,10 +62,11 @@ http://ota.whyengineer.com/repo/targets/<filename>
 
 hello_world.txt is the default firmware in the image repo.
 
-```
-the default usernamee:admin
-the default password:admin123456
-```
+
+the default usernamee:**admin**
+
+the default password:**admin123456**
+
 
 ### Director Repo
 Director Repo distribute the Image Repo firmware to a special VIN and special ECU
@@ -74,13 +76,14 @@ Description: get security time
 
 Request: POST
 
-**director/register_vehicle_manifest**
+Url: ```director/register_vehicle_manifest```
 
 * manifest
 * vin
 * ecu_serial
 
 Make sure vin and ecu_serial have registed in server
+
 ```
 example_manifest=
 {
@@ -125,7 +128,7 @@ If register ok, it should return:
 }
 `
 
-**every regiter online is 5min.**
+**every register online time is 5min, user need register again if timeout**
 
 
 
@@ -159,9 +162,9 @@ the default password:admin123456
 ## Admin Page
 This feature based on django admin page.
 
-http://ota.whyengineer.com/admin/
+<http://ota.whyengineer.com/admin/>
 
 
-username:admin
+username:**admin**
 
-password:admin123456
+password:**admin123456**
