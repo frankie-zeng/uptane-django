@@ -90,7 +90,7 @@ class Director:
       vins=inventory.get_all_registed_vin()
     except:
       pass
-    #vins=[]
+      vins=[]
     for vin in vins:
       # inventory.load_manifests_dict(vin.identifier)
       self.create_director_repo_for_vehicle(vin.identifier)
